@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    padding-top: 40px;
+    margin-top: 40px;
+
+}
+.img{
+    width: 50%;
+    height: 70vh;
+overflow: hidden;
+text-align: center;
+}
+.img img{
+width: 500px;
+
+}
+.text{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.text p{
+    font-size: 17px;
+}
+.text h1{
+    font-size: 67px;
+}
+.text button{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+.text button:hover{
+    background-color: rgba(0, 0, 0, 0.746);
+    transition: .4s;
+}

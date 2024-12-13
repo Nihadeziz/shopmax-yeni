@@ -1,0 +1,78 @@
+.women{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    width: 300px;
+    height: 80vh;
+    background-size: cover;
+    background-image: url(https://preview.colorlib.com/theme/shopmax/images/model_4.png);
+}
+.bottom{
+    width: 80%;
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    padding-top: 40px;
+    margin-top: 40px;
+}
+.men{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 40vh;
+    background-size: cover;
+    background-image: url(https://preview.colorlib.com/theme/shopmax/images/model_5.png);
+}
+.shoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 40vh;
+    background-size: cover;
+    background-image: url(https://preview.colorlib.com/theme/shopmax/images/model_6.png);
+}
+.container{
+    padding-top: 40px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.head{
+    width: 90%;
+   margin-bottom: 40px;
+    border-left: 3px solid red;
+}
+.head h1{
+    font-weight: 130;
+    font-size: 35px;
+}
+.mencontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.text{
+    width: 20%;
+}
+.btn{
+    width: 110px;
+    height: 40px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+}
+.btn p{
+    font-size: 10px;
+    color: rgb(163, 162, 162);
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    transition: .4s;
+}
